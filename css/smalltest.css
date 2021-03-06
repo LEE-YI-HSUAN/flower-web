@@ -1,0 +1,129 @@
+body {
+    font-family: "微軟正黑體";
+    background-color: rgb(255, 252, 242);
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 226, 226);
+    clear: both;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fab {
+    font-weight: 900;
+}
+
+p {
+    margin: 0px;
+}
+
+#light {
+    background-color: rgb(255, 226, 226);
+}
+
+#light a {
+    color: #525d97;
+    font-size: 25px;
+}
+
+#light a :hover {
+    color: #818cc5;
+}
+
+#oppo {
+    font-family: "微軟正黑體";
+    display: inline;
+}
+
+#qes_win {
+    width: 70%;
+    margin: 3% 15%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    overflow-y: hidden;
+}
+
+.qes {
+    overflow-y: hidden;
+}
+
+.qes_num {
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 60px;
+    height: 60px;
+    color: white;
+    float: left;
+    padding-top: 5px;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.qes_text {
+    font-size: 30px;
+    width: 60%;
+    float: right;
+    margin-right: 10%;
+    margin-top: -5%;
+}
+
+.op {
+    font-size: 25px;
+    border: 1px solid gray;
+    width: 40%;
+    padding: 5px 0px;
+    margin: 3% 30%;
+    background-color: white;
+}
+
+.ans {
+    color: gray;
+    font-size: 25px;
+    width: 60%;
+    padding: 5px;
+    margin: 3% 20%;
+    background-color: white;
+}
+
+.ans img {
+    width: 10%;
+}
+
+#qus_next {
+    padding: 8px;
+    width: 10%;
+    font-size: 22px;
+    float: right;
+    margin-right: 5%;
+    margin-top: -7%;
+    border: 1px solid black;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+}
+
+@media screen and (max-width:480px) {
+    footer {
+        font-size: 4px;
+    }
+
+    #barRight {
+        width: 0%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:760px) {
+    footer {
+        font-size: 7px;
+    }
+}
